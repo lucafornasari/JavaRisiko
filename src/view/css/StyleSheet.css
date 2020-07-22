@@ -1,0 +1,412 @@
+/*------------------------------------------------------------------------------------*/
+
+/* 
+ * Light Grey Button for:
+ * NewPlayerScene.fxml, ("AGGIUNGI", "RIPRISTINA" and MenuButton);
+ */
+
+#grey
+
+{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#a8a8a8 0%,#959595 100%), 
+             #9d9d9d, 
+             #d9d9d9,
+            radial-gradient(center 50% 50%, radius 100%,#d9d9d9,#cdcdcd);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: black;
+}
+
+#grey:hover
+{
+
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#a8a8a8 0%,#959595 100%),
+            #9d9d9d, 
+            #d9d9d9,
+            radial-gradient(center 50% 50%,radius 100%,#eeeeee,#969696);
+}
+
+#grey:pressed
+{
+     -fx-padding: 10 15 13 15;
+     -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/* Dark Grey Button for:
+ * NewPlayerScene.fxml, ("INDIETRO")
+ * RulesScene.fxml, ("INDIETRO")
+ */
+
+#darkgrey
+{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#494949 0%,#454545 100%), 
+             #343434, 
+             #7d7d7d,
+            radial-gradient(center 50% 50%, radius 100%,#737373,#5c5c5c);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+}
+
+#darkgrey:hover
+{
+
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#494949 0%,#454545 100%),
+            #343434, 
+            #7d7d7d,
+            radial-gradient(center 50% 50%,radius 100%,#7e7e7e, #292929);
+}
+
+#darkgrey:pressed
+{
+     -fx-padding: 10 15 13 15;
+     -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/* 
+ * Red Button for START and RULES in view.fxml
+ */
+
+#redbuttonview
+{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 100;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#830000 0%,#780000 100%),
+             #8a0000,
+             #8b0000,
+            radial-gradient(center 50% 50%, radius 100%,#bd1e1e,#b31717);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-font-size: 4.5em;
+    -fx-text-fill: Black;
+}
+
+#redbuttonview:hover
+{
+
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#830000 0%,#780000 100%),
+            #8a0000,
+            #8b0000,
+            radial-gradient(center 50% 50%,radius 100%,#d42020,#c41111);
+}
+
+#redbuttonview:pressed
+{
+     -fx-padding: 10 15 13 15;
+     -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/*
+ * Light Blu Button for most of the buttons in the game
+ */
+
+#button
+{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#1380a3 0%,#127290 100%), 
+             #24829d, 
+             #3aafd8,
+            radial-gradient(center 50% 50%, radius 100%,#3ab0d9,#2ca3c5);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-text-fill: white;
+}
+
+#button:hover
+{
+
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#1380a3 0%,#127290 100%),
+            #24829d, 
+            #3aafd8,
+            radial-gradient(center 50% 50%,radius 100%,#4bc4ea,#0e7f9d);
+}
+
+#button:pressed
+{
+     -fx-padding: 10 15 13 15;
+     -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/*
+ * Red Button for:
+ * NewPlayerScene.fxml, "INIZIA PARTITA";
+ * GameScene.fxml, ("PROSSIMA FASE" and "TERMINA TURNO" Button);
+ * "ANNULLA" in SelectCardScene.fxml and in AttackScene.fxml
+ */
+
+#redbutton
+{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#a34313 0%,#903b12 100%),
+             #9d4024,
+             #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%,#d96e3a,#c54e2c);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+}
+
+#redbutton:hover
+{
+
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#a34313 0%,#903b12 100),
+            #9d4024,
+            #d86e3a,
+            radial-gradient(center 50% 50%,radius 100%,#ea7f4b,#c54e2c);
+}
+
+#redbutton:pressed
+{
+     -fx-padding: 10 15 13 15;
+     -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/*
+ * Blu Tool Bar for most of the Tool Bar in the game
+ */
+
+#toolbar
+{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#29559a 0%,#315690 100%), 
+             #385d93, 
+             #608cd6,
+            radial-gradient(center 50% 50%, radius 100%,#5c89d6,#4472b5);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/*
+ * Dark Grey Tool Bar for RulesScene.fxml
+ */
+
+#toolbarrules
+{
+    -fx-padding: 8 15 15 15;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#494949 0%,#454545 100%), 
+             #343434, 
+             #7d7d7d,
+            radial-gradient(center 50% 50%, radius 100%,#737373,#5c5c5c);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/*
+ * Grey Tool Bar for RulesScene.fxml
+ */
+
+#toolbarrules2
+{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#a8a8a8 0%,#959595 100%), 
+             #9d9d9d, 
+             #d9d9d9,
+            radial-gradient(center 50% 50%, radius 100%,#d9d9d9,#cdcdcd);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: black;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/*
+ * Light Grey Tool Bar for RulesScene.fxml
+ */
+
+#toolbarrules3
+{
+    -fx-padding: 8 15 15 15;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#cbcbcb 0%,#b5b5b5 100%), 
+             #c6c6c6, 
+             #eeeeee,
+            radial-gradient(center 50% 50%, radius 100%,#fafafa,#e8e8e8);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-size: 1.1em;
+    -fx-text-fill: black;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/* 
+ * Purple Button for "ASSEDIA" in AttackScene.fxml
+ */
+
+#viola
+{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#7613a3 0%,#681290 100%),
+             #77249d,
+             #a63ad8,
+            radial-gradient(center 50% 50%, radius 100%,#a43ad9,#952cc5);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+}
+
+#viola:hover
+{
+
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#7613a3 0%,#681290 100%),
+            #77249d,
+            #a63ad8,
+            radial-gradient(center 50% 50%,radius 100%,#b54bea,#902cc5);
+}
+
+#viola:pressed
+{
+     -fx-padding: 10 15 13 15;
+     -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/*
+ * Dark Grey Pane for AttackScene.fxml
+ */
+
+#attack1
+{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-color:
+            radial-gradient(center 50% 50%, radius 100%,#737373,#5c5c5c);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/*
+ * Grey Pane for AttackScene.fxml
+ */
+
+#attack2
+{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-color:
+            radial-gradient(center 50% 50%, radius 100%,#d9d9d9,#cdcdcd);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: #3c3c3c;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/*
+ * Linear Gradient Pane for AttackScene.fxml
+ */
+
+#attaccodifesa
+{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-color:
+            linear-gradient( to left, #315690 40%, #a31313 60%),
+            linear-gradient(to left, #4472b5 40%, #d93a3a 60%);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/* 
+ * Menu Button in AttackScene.fxml
+ */
+
+#menubutton
+{
+    -fx-padding: 2 9 9 9;
+    -fx-background-insets: 0,0 0 5 0,0 0 6 0,0 0 7 0;
+    -fx-background-radius: 30;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#1380a3 0%,#127290 100%), 
+             #24829d, 
+             #3aafd8,
+            radial-gradient(center 50% 50%, radius 100%,#3ab0d9,#2ca3c5);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75),4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-font-size: 10px;
+    -fx-text-fill: white;
+}
+
+#menubutton:hover
+{
+
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%,#1380a3 0%,#127290 100%),
+            #24829d, 
+            #3aafd8,
+            radial-gradient(center 50% 50%,radius 100%,#4bc4ea,#0e7f9d);
+}
+
+#menubutton:pressed
+{
+     -fx-padding: 4 9 7 9;
+     -fx-background-insets: 2 0 0 0,2 0 3 0,2 0 4 0,2 0 5 0;
+
+}
